@@ -1,11 +1,11 @@
-Plasma Applet Template
+Plasma Applet Battery Consumption
 ----------------------
 
 You need KDE 4.2
 
 -- Build instructions --
 
-cd where_pkg_is_extracted
+cd BatteryConsumption
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` ../
@@ -19,14 +19,8 @@ kquitapp plasma-desktop
 plasma-desktop
 
 or view it with 
-plasmoidviewer wattrate
+plasmoidviewer batteryconsumption
 
 You might need to run kbuildsycoca4
 in order to get the .desktop file recognized.
 
--- Tutorials and resources --
-The explanation of the template
-http://techbase.kde.org/index.php?title=Development/Tutorials/Plasma/GettingStarted
-
-Plasma techbase pages
-http://techbase.kde.org/Projects/Plasma
